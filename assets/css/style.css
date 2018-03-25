@@ -104,6 +104,7 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 .tileDetails {
   position: absolute;
   bottom: 0;
@@ -116,6 +117,7 @@ p {
   -webkit-transition: 450ms opacity;
   transition: 450ms opacity;
 }
+
 .tileDetails:after,
 .tileDetails:before {
   content: '';
@@ -124,6 +126,7 @@ p {
   left: 50%;
   display: #000;
 }
+
 .tileDetails:after {
   margin-top: -25px;
   margin-left: -25px;
@@ -136,6 +139,7 @@ p {
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
+
 .tileDetails:before {
   content: '▶';
   left: 0;
@@ -146,26 +150,32 @@ p {
   text-align: center;
   z-index: 2;
 }
+
 .tile:hover .tileDetails {
   opacity: 1;
 }
+
 .tileTitle {
   position: absolute;
   bottom: 0;
   padding: 10px;
 }
+
 .rowInner:hover {
   -webkit-transform: translate3d(-62.5px, 0, 0);
           transform: translate3d(-62.5px, 0, 0);
 }
+
 .rowInner:hover .tile {
   opacity: 0.3;
 }
+
 .rowInner:hover .tile:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   opacity: 1;
 }
+
 .tile:hover ~ .tile {
   -webkit-transform: translate3d(125px, 0, 0);
           transform: translate3d(125px, 0, 0);

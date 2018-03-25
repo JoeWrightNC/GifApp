@@ -1,4 +1,4 @@
-var terms = ["kitties", "puppies", "turtles", "hamsters", "sloths"]; 
+var terms = ["kittens", "puppies", "turtles", "pangolins", "kaolas", "sloths"]; 
 
 function displaySearchInfo() {
   event.preventDefault();
@@ -46,6 +46,8 @@ function gifPlayer() {
   $("#still"+singleMaker).hide();
   $("#details"+singleMaker).hide();
   $("#player"+singleMaker).show();
+  $("#player"+singleMaker).css("zIndex","100");
+  $("#player"+singleMaker).css("opacity","1");
   $(this).mouseleave(function() { 
     $("#player"+singleMaker).hide()
     $("#still"+singleMaker).show()
