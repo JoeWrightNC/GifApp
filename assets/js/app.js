@@ -23,7 +23,7 @@ function displaySearchInfo() {
         <div class="tile col resultCard" id="${response.data[i].id}">
           <div class="tileMedia">
             <img class="tileImg" id="still${response.data[i].id}" src="${response.data[i].images.fixed_height_still.url}" alt="Card image cap">
-            <img class="tileImgPlayer" id="player${response.data[i].id}" src="${response.data[i].url}" alt="Card image cap">
+            <img class="tileImgPlayer" id="player${response.data[i].id}" src="${response.data[i].images.fixed_height.url}" alt="Card image cap">
           </div>
           <div class="tileDetails" id="details${response.data[i].id}">
             <h5 class="tileTitle" id>${response.data[i].title}</h5>
