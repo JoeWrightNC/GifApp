@@ -1,4 +1,4 @@
-var terms = ["kittens", "puppies", "turtles", "pangolins", "kaolas", "sloths"]; 
+var terms = ["kittens", "puppies", "turtles", "pangolins", "koalas", "sloths"]; 
 
 function displaySearchInfo() {
   event.preventDefault();
