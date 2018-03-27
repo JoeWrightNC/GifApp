@@ -66,7 +66,7 @@ function renderButtons() {
   }
 }
 
-$("#add-movie").on("click", function(event) {
+$("#add-search").on("click", function(event) {
   event.preventDefault();
   var term = $("#search-input").val().trim();
   terms.push(term);
